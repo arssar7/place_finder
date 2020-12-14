@@ -211,7 +211,7 @@ class GoToWhere:
                 if len(set(drinks).intersection(set_of_drinks_offered_by_venue)) == 0:
 
                     # len(set(drinks).intersection(set_of_drinks_offered_by_venue)) == 0 will return True if
-                    # the venue offers none of the drinks offered are desired by the users; In either case
+                    # the venue offers none of the drinks that are desired by the users; In either case
                     # this suggests that the team cannot go to that venue.
 
                     places_to_avoid.append({_v_name: f'There is nothing for {_user.split()[0]} to drink.'})
